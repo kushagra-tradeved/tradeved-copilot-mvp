@@ -1,0 +1,18 @@
+# Ignore the massive virtual environment folder
+env/
+venv/
+ENV/
+
+# Ignore your private API credentials and secrets
+.env
+
+# Ignore compiled Python bytecode caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore local IDE settings
+.vscode/
+.idea/
+.DS_Store
